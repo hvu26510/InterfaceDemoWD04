@@ -11,16 +11,16 @@ namespace InterfaceDemoWD04
         static void Main(string[] args)
         {
             //IHinh tron;
-            HinhTron tron = new HinhTron()
-            {
-                banKinh = 10,
-                color = "Blue"
-            };
-            tron.TinhDienTich();
+            //HinhTron tron = new HinhTron()
+            //{
+            //    banKinh = 10,
+            //    color = "Blue"
+            //};
+            //tron.TinhDienTich();
 
 
-            Console.WriteLine("Dien tich hinh tron: " + tron.dienTich);
-            tron.showColor();
+            //Console.WriteLine("Dien tich hinh tron: " + tron.dienTich);
+            //tron.showColor();
 
 
 
@@ -34,11 +34,15 @@ namespace InterfaceDemoWD04
 
             //Console.WriteLine("Dien tich hinh chu nhat: " + hcn.dienTich);
 
-            TinhToan t = new TinhToan();
+            //TinhToan t = new TinhToan();
 
-            Console.WriteLine(t.Add(1, 2));
+            //Console.WriteLine(t.Add(1, 2));
 
-            Console.WriteLine(t.Add(1.5,2));
+            //Console.WriteLine(t.Add(1.5,2));
+
+            Vuong v = new Vuong(100);
+
+            v.ShowDienTich();
 
 
             Console.ReadLine();
